@@ -100,17 +100,7 @@ URL: /tasks/:id
 URL: /tasks/:id/complete
 
 ```
-Request Body:
-{
-"id": 1,
-"title": "Complete project",
-"description": "Finish the task management system",
-"due_date": "2023-11-15",
-"status": "Completed",
-"completed_at": "2023-11-08T12:00:00.000Z",
-"created_at": "2023-11-08T12:00:00.000Z",
-"updated_at": "2023-11-08T12:00:00.000Z"
-}
+
 
 **Method: GET**
 
