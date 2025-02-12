@@ -52,7 +52,7 @@ A backend application for managing tasks using **Node.js**, **Express**, and **P
 5. **Run the database migration script**: psql -U your_db_user -d postgres -f schema.sql
 6. **Start the server: npm run dev**
 
-***API Details****
+***API Details***
 Base URL :http://localhost:3000/api
 
 Endpoints
