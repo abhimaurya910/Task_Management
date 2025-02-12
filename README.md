@@ -100,6 +100,7 @@ URL: /tasks/:id
 URL: /tasks/:id/complete
 
 ```
+Request Body:
 {
 "id": 1,
 "title": "Complete project",
