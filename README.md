@@ -35,9 +35,9 @@ A backend application for managing tasks using **Node.js**, **Express**, and **P
 
    ```
 
-2. Navigate to the Project Folder: cd backend_project-for-new
-3. Install Dependencies: npm install
-4. Set up the database:
+2. **Navigate to the Project Folder**: cd backend_project-for-new
+3. **Install Dependencies**: npm install
+4. **Set up the database**:
 
    Create a PostgreSQL database.
 
@@ -49,15 +49,15 @@ A backend application for managing tasks using **Node.js**, **Express**, and **P
    DB_NAME=task_management
    PORT=3000
 
-5. Run the database migration script: psql -U your_db_user -d postgres -f schema.sql
-6. Start the server: npm run dev
+5. **Run the database migration script**: psql -U your_db_user -d postgres -f schema.sql
+6. **Start the server: npm run dev**
 
-API Details
+***API Details****
 Base URL :http://localhost:3000/api
 
 Endpoints
 Create a Task
-Method: POST
+**Method: POST**
 
 URL: /tasks
 
@@ -68,12 +68,12 @@ Request Body: {
 }
 
 Get All Tasks
-Method: GET
+**Method: GET**
 
 URL: /tasks
 
 Update a Task
-Method: PUT
+**Method: PUT**
 
 URL: /tasks/:id
 Request Body:{
@@ -83,11 +83,11 @@ Request Body:{
 "status": "In Progress"
 }
 
-Method: DELETE
+**Method: DELETE**
 
 URL: /tasks/:id
 
-Method: PATCH
+**Method: PATCH**
 
 URL: /tasks/:id/complete
 {
@@ -101,6 +101,6 @@ URL: /tasks/:id/complete
 "updated_at": "2023-11-08T12:00:00.000Z"
 }
 
-Method: GET
+**Method: GET**
 
 URL: /tasks/search?query=project
