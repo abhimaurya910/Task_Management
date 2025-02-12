@@ -22,7 +22,7 @@ A backend application for managing tasks using **Node.js**, **Express**, and **P
 
 ### Prerequisites
 
-- **Node.js** (v16 or higher)
+- **Node.js** (v20.11.0)
 - **npm** (comes with Node.js)
 - **PostgreSQL** (install locally or use a cloud-based service)
 
