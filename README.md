@@ -52,14 +52,16 @@ A backend application for managing tasks using **Node.js**, **Express**, and **P
 5. **Run the database migration script**: psql -U your_db_user -d postgres -f schema.sql
 6. **Start the server: npm run dev**
 
-***API Details***
+**API Details**
 Base URL :http://localhost:3000/api
 
 Endpoints
 Create a Task
 **Method: POST**
 
+```
 URL: /tasks
+```
 
 Request Body: {
 "title": "Complete project",
@@ -69,13 +71,17 @@ Request Body: {
 
 Get All Tasks
 **Method: GET**
-
+```
 URL: /tasks
+```
 
 Update a Task
 **Method: PUT**
 
+```
 URL: /tasks/:id
+
+```
 Request Body:{
 "title": "Updated title",
 "description": "Updated description",
@@ -84,12 +90,16 @@ Request Body:{
 }
 
 **Method: DELETE**
-
+```
 URL: /tasks/:id
 
-**Method: PATCH**
+```
 
+**Method: PATCH**
+```
 URL: /tasks/:id/complete
+
+```
 {
 "id": 1,
 "title": "Complete project",
@@ -103,4 +113,7 @@ URL: /tasks/:id/complete
 
 **Method: GET**
 
+```
 URL: /tasks/search?query=project
+
+```
